@@ -70,7 +70,7 @@ jobs:
 
             -   name: Setup environment
                 env:
-                    GH_HH_ACCESS_TOKEN: ${{ secrets.GH_HH_ACCESS_TOKEN }}
+                    GH_API_ACCESS_TOKEN: ${{ secrets.GH_API_ACCESS_TOKEN }}
                 run: |
                     sh ci/setup_env.sh
 
