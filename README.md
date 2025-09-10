@@ -2,15 +2,14 @@
 
 <a href="https://github.com/MakueB/diplom_HH_app"><img src="https://img.shields.io/badge/Platform-Android-green.svg" alt="Platform"></a>
 <a href="https://kotlinlang.org/"><img src="https://img.shields.io/badge/Kotlin-100%25-purple.svg" alt="Kotlin"></a>
-<a href="https://developer.android.com/jetpack/compose"><img src="https://img.shields.io/badge/UI-Jetpack%20Compose-blue.svg" alt="Jetpack Compose"></a>
 
 **HH Assistant** — это современное Android-приложение, предлагающее удобный и быстрый способ поиска вакансий на платформе HeadHunter (HH.ru). Помимо основного поиска, приложение предоставляет мощные инструменты для организации работы с вакансиями: избранное, фильтрация и удобные виджеты для главного экрана.
 
 <p align="center">
-  <img src="/readme_assets/screen_main.png" width="24%" alt="Main Screen"/>
-  <img src="/readme_assets/screen_search.png" width="24%" alt="Search Screen"/>
-  <img src="/readme_assets/screen_filters.png" width="24%" alt="Filters Screen"/>
-  <img src="/readme_assets/screen_widget.png" width="24%" alt="Widget Screen"/>
+  <img src="https://github.com/MakueB/HH_assistant/blob/main/main_screen.png" width="24%" alt="Main Screen"/>
+  <img src="https://github.com/MakueB/HH_assistant/blob/main/search.png" width="24%" alt="Search Screen"/>
+  <img src="https://github.com/MakueB/HH_assistant/blob/main/filters.png" width="24%" alt="Filters Screen"/>
+  <img src="https://github.com/MakueB/HH_assistant/blob/main/favorites.png" width="24%" alt="Widget Screen"/>
 </p>
 
 ## 🚀 Возможности
@@ -25,13 +24,11 @@
 ## 🛠 Стек технологий
 
 *   **Язык:** [Kotlin](https://kotlinlang.org/)
-*   **Декларативный UI:** [Jetpack Compose](https://developer.android.com/jetpack/compose) (100% кодовая база UI)
 *   **Архитектура:** [MVVM](https://developer.android.com/topic/architecture) (Model-View-ViewModel) + Clean Architecture
 *   **Асинхронность:** [Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-guide.html) с [Flow](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/)
 *   **Локальная база данных:** [Room Database](https://developer.android.com/training/data-storage/room)
 *   **Сетевые запросы:** [Retrofit 2](https://square.github.io/retrofit/) с [Moshi](https://github.com/square/moshi)
 *   **DI (Внедрение зависимостей):** [Koin](https://insert-koin.io/)
-*   **Виджеты:** [Glance AppWidget](https://developer.android.com/develop/ui/views/appwidget/glance) (для создания виджетов на Compose)
 
 ## 📦 Установка и запуск
 
